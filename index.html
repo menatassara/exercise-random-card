@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random Card Dealer</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="card">
+            <span id="cardValue"></span>
+            <span class="iconTop icon"></span>
+            <span class="iconBottom icon"></span>
+        </div>
+
+    </div>
+    <div id="control">
+        <!-- Button card -->
+        <button id="btnCard">Change Card</button>
+
+        <!-- to change dimesion card --->
+        <div id="sizeControl">
+            <label for="width">
+                Width:
+            </label>
+            <input id="inputWidth" name="width" min="0" value="0" type="number">
+            <label for="height">
+                Height:
+            </label>
+            <input id="inputHeight" name="height" min="0" value="0" type="number">
+        </div>
+
+    </div>
+</body>
+
+</html>
